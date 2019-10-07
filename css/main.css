@@ -1,14 +1,31 @@
 html {
   box-sizing: border-box;
   font-family: sans-serif;
-  line-height: 1.5
+  line-height: 1.5;
+  background-color: #dbd6cf;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+h1 {
+  font-family: "Bevan", serif;
+  color: #fff;
+}
 .nav {
   list-style-type: none;
+}
 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  background-color: #713837;
+  border-radius: 4px;
+}
+
+.nav a:hover {
+  background-color: #f33;
 }
