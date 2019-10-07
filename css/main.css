@@ -15,15 +15,22 @@ h1 {
 }
 .nav {
   list-style-type: none;
+  text-align: center;
+}
+
+.nav li {
+  display: inline-block;
 }
 
 .nav a {
+  display: inline-block;
   text-decoration: none;
   color: #fff;
   display: inline-block;
-  padding: 0.5em 0.75em;
   background-color: #713837;
   border-radius: 4px;
+  padding: .6em .5em .75em;
+  margin: .3em;
 }
 
 .nav a:hover {
