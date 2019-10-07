@@ -31,9 +31,14 @@ h1 {
   display: inline-block;
   background-color: #713837;
   border-radius: 4px;
-  padding: .6em .5em .75em;
+  padding: .6em .75em .75em;
 }
 
 .nav a:hover {
   background-color: #f33;
+}
+
+header {
+  background-color: #79756f;
+  border: 3px solid #595652;
 }
