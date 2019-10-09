@@ -19,12 +19,10 @@ h1 {
 .nav {
   list-style-type: none;
   text-align: center;
-  padding: 1rem;
 }
 
 .nav li {
   display: inline-block;
-  margin: .3em;
 }
 
 .nav a {
